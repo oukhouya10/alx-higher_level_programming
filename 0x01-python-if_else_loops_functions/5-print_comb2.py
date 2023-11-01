@@ -4,4 +4,3 @@ for y in range(00, 100):
         print("{:02d}".format(y), end=", ")
     else:
         print("{:02d}".format(y))
-    
