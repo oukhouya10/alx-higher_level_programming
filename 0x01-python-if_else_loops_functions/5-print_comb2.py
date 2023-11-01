@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-for y in range(00, 100):
-    if y is not 99:
-        print("{:02d}".format(y), end=", ")
-    else:
-        print("{:02d}".format(y))
+for y in range(100):
+    print("{:02d}".format(y), end="\n" if y == 99 else ", ")
