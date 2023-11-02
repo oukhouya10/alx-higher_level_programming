@@ -1,6 +1,7 @@
 #!/usr/bin/python3
+import hidden_4
+
 if __name__ == "__main__":
-    import hidden_4
-    for i in dir(hidden_4):
-        if i.startswitch("__") is False:
-            print(i)
+    for function in dir(hidden_4):
+        if (function[0] != "_"):
+            print(function)
